@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMongo", "TestMongo\TestMongo.csproj", "{BC6B0C7E-D838-4475-B05E-E23454AC70BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGCM", "TestGCM\TestGCM.csproj", "{A4B9E323-5397-4AEE-82A4-082B1A92E25A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
