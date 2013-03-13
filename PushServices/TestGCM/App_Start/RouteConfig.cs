@@ -18,6 +18,16 @@ namespace TestGCM
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+                name: "Device",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Device", action = "Index", regId = UrlParameter.Optional }
+            );
+            routes.MapRoute(
+                name: "Send",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Send", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }
