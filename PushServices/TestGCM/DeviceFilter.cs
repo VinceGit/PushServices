@@ -9,28 +9,35 @@ namespace TestGCM
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, Inherited = true, AllowMultiple = false)]
     public class DeviceFilter : ActionFilterAttribute
     {
-
-        //private MyCustomFilterMode _Mode = MyCustomFilterMode.Respect;        // this is the default, so don't always have to specify
-
-        //public MyCustomFilterAttribute()
-        //{
-        //}
         public DeviceFilter()
         {
-            //_Mode = mode;
         }
 
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
-            //if (_Mode == MyCustomFilterMode.Ignore)
-            //{
-            //    return;
-            //}
+            switch (getOSDevice(filterContext.HttpContext.Request.UserAgent))
+            {
+                case DeviceOS.Android:
+                    break;
+                case DeviceOS.iOS:
+                    break;
+                case DeviceOS.WindowsPhone:
+                    break;
+                case DeviceOS.unknow:
+                    break;
+                default:
+                    break;
+            }
+            
+        }
 
-            // Otherwise, respect the attribute and work your magic here!
-            //
-            //
-            //
+        private DeviceOS getOSDevice(string useragent)
+        {
+
+            return DeviceOS.Android;
+            //return DeviceOS.iOS;
+            //return DeviceOS.WindowsPhone;
+            //return DeviceOS.unknow;
         }
 
     }

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMongo", "TestMongo\TestMongo.csproj", "{BC6B0C7E-D838-4475-B05E-E23454AC70BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGCM", "TestGCM\TestGCM.csproj", "{A4B9E323-5397-4AEE-82A4-082B1A92E25A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAdmin", "WebAdmin", "{DD6F1587-F4BF-4805-A712-FD84DF5E13EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubscriptionService", "SubscriptionService", "{F346AAF4-285C-4A15-8B91-F37567DC9FF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminService", "AdminService", "{616335BF-8FC8-4866-85D9-7A5C96EB4C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{59AC0204-7FCB-4D4F-855B-1AA86D9A557C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{DCCB9F85-6519-4B1D-AE88-899E7E578A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMS.SubscriptionService", "NMS.SubscriptionService\NMS.SubscriptionService.csproj", "{4B4C8D36-24C3-4E20-84C1-11A4CE0156E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D01E406A-4EE4-4165-A71E-D3C51789726D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMS.SubscriptionService.Plugins.Android", "NMS.SubscriptionService.Plugins.Android\NMS.SubscriptionService.Plugins.Android.csproj", "{35E219CB-8D5B-4FEF-AB48-19918C0730B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMS.SubscriptionService.Plugins", "NMS.SubscriptionService.Plugins\NMS.SubscriptionService.Plugins.csproj", "{599E75BD-652D-4698-AC22-E117C3B834CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4C8D36-24C3-4E20-84C1-11A4CE0156E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4C8D36-24C3-4E20-84C1-11A4CE0156E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4C8D36-24C3-4E20-84C1-11A4CE0156E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4C8D36-24C3-4E20-84C1-11A4CE0156E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E219CB-8D5B-4FEF-AB48-19918C0730B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E219CB-8D5B-4FEF-AB48-19918C0730B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E219CB-8D5B-4FEF-AB48-19918C0730B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E219CB-8D5B-4FEF-AB48-19918C0730B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599E75BD-652D-4698-AC22-E117C3B834CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599E75BD-652D-4698-AC22-E117C3B834CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599E75BD-652D-4698-AC22-E117C3B834CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599E75BD-652D-4698-AC22-E117C3B834CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4B9E323-5397-4AEE-82A4-082B1A92E25A} = {59AC0204-7FCB-4D4F-855B-1AA86D9A557C}
+		{BC6B0C7E-D838-4475-B05E-E23454AC70BE} = {59AC0204-7FCB-4D4F-855B-1AA86D9A557C}
+		{4B4C8D36-24C3-4E20-84C1-11A4CE0156E9} = {F346AAF4-285C-4A15-8B91-F37567DC9FF8}
+		{D01E406A-4EE4-4165-A71E-D3C51789726D} = {F346AAF4-285C-4A15-8B91-F37567DC9FF8}
+		{599E75BD-652D-4698-AC22-E117C3B834CF} = {F346AAF4-285C-4A15-8B91-F37567DC9FF8}
+		{35E219CB-8D5B-4FEF-AB48-19918C0730B4} = {D01E406A-4EE4-4165-A71E-D3C51789726D}
+	EndGlobalSection
+EndGlobal

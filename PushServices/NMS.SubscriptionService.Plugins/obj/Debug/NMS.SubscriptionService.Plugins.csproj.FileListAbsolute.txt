@@ -1,0 +1,4 @@
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins\bin\Debug\NMS.SubscriptionService.Plugins.dll
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins\bin\Debug\NMS.SubscriptionService.Plugins.pdb
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins\obj\Debug\NMS.SubscriptionService.Plugins.dll
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins\obj\Debug\NMS.SubscriptionService.Plugins.pdb

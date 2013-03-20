@@ -29,3 +29,4 @@ C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\TestGCM\bin\S
 C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\TestGCM\bin\System.Web.WebPages.Razor.xml
 C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\TestGCM\obj\Debug\TestGCM.dll
 C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\TestGCM\obj\Debug\TestGCM.pdb
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\TestGCM\obj\Debug\TestGCM.csprojResolveAssemblyReference.cache
