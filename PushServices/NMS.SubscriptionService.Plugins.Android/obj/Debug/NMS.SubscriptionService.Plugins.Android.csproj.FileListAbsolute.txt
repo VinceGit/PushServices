@@ -3,3 +3,5 @@ C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.Subscript
 C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins.Android\obj\Debug\NMS.SubscriptionService.Plugins.Android.csprojResolveAssemblyReference.cache
 C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins.Android\obj\Debug\NMS.SubscriptionService.Plugins.Android.dll
 C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins.Android\obj\Debug\NMS.SubscriptionService.Plugins.Android.pdb
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins.Android\bin\Debug\NMS.SubscriptionService.Plugins.dll
+C:\Users\Administrateur\Documents\GitHub\PushServices\PushServices\NMS.SubscriptionService.Plugins.Android\bin\Debug\NMS.SubscriptionService.Plugins.pdb

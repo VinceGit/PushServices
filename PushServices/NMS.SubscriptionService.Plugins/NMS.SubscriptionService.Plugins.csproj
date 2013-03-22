@@ -41,10 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interfaces\IDeviceFilter.cs" />
-    <Compile Include="Interfaces\IDeviceSubscription.cs" />
-    <Compile Include="Loader.cs" />
-    <Compile Include="PluginCollection.cs" />
+    <Compile Include="Interfaces\IControllerAbstractFactory.cs" />
+    <Compile Include="Interfaces\IDeviceStrategy.cs" />
+    <Compile Include="Interfaces\OsDeviceAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

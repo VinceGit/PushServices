@@ -30,6 +30,8 @@ namespace NMS.SubscriptionService
             var configurer = new ApplicationConfigurer();
             var manager = WURFLManagerBuilder.Build(configurer);
             HttpContext.Current.Cache[WurflManagerCacheKey] = manager;
+
+            Bootstrap.Run();
         }
     }
 }

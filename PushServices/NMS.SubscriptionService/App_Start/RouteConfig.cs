@@ -16,7 +16,7 @@ namespace NMS.SubscriptionService
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Device", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Suscription", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
